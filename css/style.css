@@ -1,0 +1,64 @@
+.red{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+}
+
+.blue{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+.yellow{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  display: inline-block;
+  position: relative;
+  right: 100px;
+}
+
+
+/*
+Without the in-line block display property,
+just using the relative positioning and values to adjust
+The output was sort of the same, so which is sort of more accurate??
+
+Without the inline block property,
+the space between the blue and yellow was even taken care of,
+thus even-spacing each.
+
+
+.red{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+}
+
+.blue{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: relative;
+  bottom: 100px;
+}
+
+.yellow{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+}
+
+*/
